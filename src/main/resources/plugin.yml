@@ -1,0 +1,24 @@
+name: TempPromote
+version: 1.0
+description: Allows a user to .
+author: rymate1234
+
+main: net.rymate.temp.PromotePlugin
+depend: [Vault]
+
+commands:
+  temppromote:
+    description: Temporarily promote a user for a specified time
+    usage: /<command> [username] [value] [length] (worlds)
+  tempdemote:
+    description: Removes a value from a user for a specified time
+    usage: /<command> [username] [value] [length] (worlds)
+  temppermission:
+    description: Gives a player a permission for a specified time
+    usage: /<command> [username] [permission] [length] (worlds)
+  promotionslist:
+    description: Lists all active promotions and demotions, and temp permissions
+    usage: /<command> [type]
+  promotioncheck:
+    description: Lists all active promotions for a player
+    usage: /<command> (user)
